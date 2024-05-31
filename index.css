@@ -1,7 +1,7 @@
 body{
     margin:0;
     display: flex;
-    justify-content: center; /* By using 3,4 lines the contents appeared to center*/
+    justify-content: center;
     background-color:rgb(13, 231, 247)
    
 }
@@ -9,7 +9,7 @@ body{
     position: absolute;
     top:30%;
     box-shadow: 0 4px 8px rgba(0,0,0,.3);
-    width:400px; /* width of form box */
+    width:400px; 
     background-color: yellow;
     border-radius: 20px;
 }
@@ -19,7 +19,6 @@ body{
     box-sizing: border-box;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
-     /* as we have set this input-box was setted in list-box */
     border-radius: 10px 10px 0 0;
     border:none;   
 }
@@ -27,14 +26,14 @@ body{
     color:lightgray;
 }
 .list{
-    padding:0; /* we have setted both to 0 because to keep out the dots which willl come as we are using li */
+    padding:0; 
     margin:0;
 }
 .list li{
-    list-style-type: none; /* those dots were removed */
+    list-style-type: none; 
     font-family: 'Times New Roman', Times, serif;
     border-top: dashed darkgray;
-    padding:20px; /* padding means distance between content's imaginary box to the contents */
+    padding:20px;
     border-color: darkgray;
     position: relative;
 }
@@ -46,7 +45,6 @@ body{
     top:50%;
     transform: translateY(-50%);
 }
-/* line 62 continuation */
 .list li.checked .fa-circle-check{
     color:darkgray;
 }
@@ -60,5 +58,5 @@ body{
 }
 .list li.checked{
     color:darkgray;
-    text-decoration: line-through; /* with this the word will be stricked-off */
+    text-decoration: line-through;
 }
